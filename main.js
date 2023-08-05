@@ -24,3 +24,18 @@ function choosePhrase() {
             break;
     }
 }
+
+function whoSaysIt() {
+    let num = Math.floor(Math.random()*3)
+    switch (num){
+        case 0:
+            return "LeBron James";
+            break;
+        case 1:
+            return "DJ Khaled";
+            break;
+        case 2:
+            return "Hanni from NewJeans";
+            break;
+    }
+}
